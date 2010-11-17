@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:padding="3px"
+ >
+<TextView android:text="COUNTDOWN_TITLE" android:id="@+id/TvItemTitle" android:layout_height="wrap_content" android:layout_width="fill_parent" android:textSize="@dimen/countdown_title_size" android:layout_marginBottom="2px"></TextView>
+<TextView android:text="COUNTDOWN" android:id="@+id/TvItemCountdown" android:layout_height="wrap_content" android:textSize="@dimen/countdown_counter_size" android:layout_width="wrap_content" android:layout_gravity="right"></TextView>
+</LinearLayout>

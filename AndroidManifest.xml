@@ -12,7 +12,8 @@
             </intent-filter>
         </activity>
 
-    </application>
+    <provider android:authorities="com.confuzed.android.countdowns" android:name="CountdownProvider"></provider>
+</application>
     <uses-sdk android:minSdkVersion="4" />
 
 </manifest> 
